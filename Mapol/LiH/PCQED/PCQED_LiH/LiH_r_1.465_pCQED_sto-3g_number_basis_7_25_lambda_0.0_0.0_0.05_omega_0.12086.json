@@ -1,0 +1,52 @@
+{
+    "repo": {
+        "repository_url": " https://github.com/FoleyLab/SCQED-PCQED",
+        "branch": "ruby_qed",
+        "commit": "7402526bbadfcd422647cc60c007497dbe7af540"
+    },
+    "molecule": {
+        "molecule_name": "LiH",
+        "geometry": [
+            [
+                0.0,
+                0.0,
+                -0.34780092817190533
+            ],
+            [
+                0.0,
+                0.0,
+                2.421226333213239
+            ]
+        ],
+        "symbols": [
+            "Li",
+            "H"
+        ],
+        "z-matrix": "\nLi\nH 1 1.4653061224489796\nsymmetry c1\n",
+        "bond_length": 1.4653061224489796
+    },
+    "driver": "energy",
+    "model": {
+        "method": "pCQED",
+        "orbital_basis": "sto-3g",
+        "photon_basis": "number_basis",
+        "number_of_photon_states": 7,
+        "number_of_electronic_states": 25,
+        "lambda": [
+            0.0,
+            0.0,
+            0.05
+        ],
+        "omega": 0.12086
+    },
+    "return_result": [
+        -7.8764838703680224,
+        -7.7588685295302025,
+        -7.7336617580738,
+        -7.6882409873747655,
+        -7.688208432977334,
+        -7.640743691914556
+    ],
+    "cavity_free_rhf_energy": -7.8629329846331,
+    "cavity_free_ci_ground_state_energy": -7.881518520573198
+}
