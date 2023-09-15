@@ -68,3 +68,75 @@ Module                                       User      System        Wall       
 --------------------------------------------------------------------------------------
 
 **************************************************************************************
+
+Host: CHEMYY31VALT
+
+Timers On : Fri Sep 15 10:56:29 2023
+Timers Off: Fri Sep 15 15:04:43 2023
+
+Wall Time:    14893.92 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+
+--------------------------------------------------------------------------------------
+
+**************************************************************************************
+
+Host: CHEMYY31VALT
+
+Timers On : Fri Sep 15 15:05:43 2023
+Timers Off: Fri Sep 15 16:03:24 2023
+
+Wall Time:     3461.90 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Total PK formation time             :      0.000u      0.000s      0.007w      2 calls
+Libint2ERI::Libint2ERI              :      0.000u      0.000s      0.004w      6 calls
+HF: Form core H                     :      0.000u      0.000s      0.001w      2 calls
+HF: Form S/X                        :      0.000u      0.000s      0.000w      2 calls
+HF: Guess                           :      0.033u      0.000s      0.018w      2 calls
+SAD Guess                           :      0.017u      0.000s      0.017w      2 calls
+HF: Form G                          :      0.000u      0.000s      0.001w     24 calls
+JK: D                               :      0.000u      0.000s      0.000w     24 calls
+JK: USO2AO                          :      0.000u      0.000s      0.000w     24 calls
+JK: JK                              :      0.000u      0.000s      0.000w     24 calls
+PK computes JK                      :      0.000u      0.000s      0.000w     24 calls
+JK: AO2USO                          :      0.000u      0.000s      0.000w     24 calls
+HF: Form F                          :      0.000u      0.000s      0.000w     24 calls
+HF: Form D                          :      0.000u      0.000s      0.000w     24 calls
+HF: DIIS                            :      0.200u      0.083s      0.150w     22 calls
+HF: Form C                          :      0.017u      0.000s      0.003w     22 calls
+CIWave: CIvect write                :      0.000u      0.967s      0.586w   1400 calls
+CIWave: CIvect read                 :      0.383u     12.233s      7.520w  29524 calls
+CIWave: s2                          :      4.867u      0.067s      2.911w    118 calls
+CIWave: s3                          :     17.283u      0.183s     10.494w    118 calls
+CIWave: opdm                        :      2.483u      0.050s      1.521w      4 calls
+
+--------------------------------------------------------------------------------------
+Total PK formation time             :      0.000u      0.000s      0.007w      2 calls
+| Libint2ERI::Libint2ERI            :      0.000u      0.000s      0.002w      4 calls
+HF: Form core H                     :      0.000u      0.000s      0.001w      2 calls
+HF: Form S/X                        :      0.000u      0.000s      0.000w      2 calls
+HF: Guess                           :      0.033u      0.000s      0.018w      2 calls
+| SAD Guess                         :      0.017u      0.000s      0.017w      2 calls
+HF: Form G                          :      0.000u      0.000s      0.001w     24 calls
+| JK: D                             :      0.000u      0.000s      0.000w     24 calls
+| JK: USO2AO                        :      0.000u      0.000s      0.000w     24 calls
+| JK: JK                            :      0.000u      0.000s      0.000w     24 calls
+| | PK computes JK                  :      0.000u      0.000s      0.000w     24 calls
+| JK: AO2USO                        :      0.000u      0.000s      0.000w     24 calls
+HF: Form F                          :      0.000u      0.000s      0.000w     24 calls
+HF: Form D                          :      0.000u      0.000s      0.000w     24 calls
+HF: DIIS                            :      0.200u      0.083s      0.150w     22 calls
+HF: Form C                          :      0.017u      0.000s      0.003w     22 calls
+Libint2ERI::Libint2ERI              :      0.000u      0.000s      0.001w      2 calls
+CIWave: CIvect write                :      0.000u      0.967s      0.586w   1400 calls
+CIWave: CIvect read                 :      0.383u     12.200s      7.505w  29464 calls
+CIWave: s2                          :      4.867u      0.067s      2.911w    118 calls
+CIWave: s3                          :     17.283u      0.183s     10.494w    118 calls
+CIWave: opdm                        :      2.483u      0.050s      1.521w      4 calls
+| CIWave: CIvect read               :      0.000u      0.033s      0.014w     60 calls
+
+**************************************************************************************
