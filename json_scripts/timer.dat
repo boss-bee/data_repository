@@ -369,3 +369,71 @@ CIWave: opdm                        :      0.500u      0.017s      0.298w      6
 | CIWave: CIvect read               :      0.000u      0.000s      0.003w    126 calls
 
 **************************************************************************************
+
+Host: Jessicas-iMac.local
+
+Timers On : Sun Oct 22 16:13:06 2023
+Timers Off: Sun Oct 22 16:13:29 2023
+
+Wall Time:       22.50 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Total PK formation time             :      0.017u      0.000s      0.010w      1 calls
+Libint2ERI::Libint2ERI              :      0.000u      0.000s      0.006w      3 calls
+HF: Form core H                     :      0.000u      0.000s      0.001w      1 calls
+HF: Form S/X                        :      0.000u      0.000s      0.003w      1 calls
+HF: Guess                           :      0.033u      0.017s      0.030w      1 calls
+SAD Guess                           :      0.033u      0.017s      0.028w      1 calls
+HF: Form G                          :      0.000u      0.000s      0.001w     12 calls
+JK: D                               :      0.000u      0.000s      0.000w     12 calls
+JK: USO2AO                          :      0.000u      0.000s      0.000w     12 calls
+JK: JK                              :      0.000u      0.000s      0.000w     12 calls
+PK computes JK                      :      0.000u      0.000s      0.000w     12 calls
+JK: AO2USO                          :      0.000u      0.000s      0.000w     12 calls
+HF: Form F                          :      0.000u      0.000s      0.000w     12 calls
+HF: Form D                          :      0.000u      0.000s      0.000w     12 calls
+HF: DIIS                            :      0.017u      0.000s      0.004w     11 calls
+DIISManager::add_entry              :      0.000u      0.000s      0.001w     11 calls
+DIISManager::extrapolate            :      0.000u      0.000s      0.001w     11 calls
+bMatrix setup                       :      0.000u      0.000s      0.000w     11 calls
+bMatrix pseudoinverse               :      0.000u      0.000s      0.000w     11 calls
+New vector                          :      0.000u      0.000s      0.000w     11 calls
+HF: Form C                          :      0.000u      0.000s      0.002w     11 calls
+CIWave: CIvect write                :      0.000u      0.017s      0.008w    520 calls
+CIWave: CIvect read                 :      0.000u      0.083s      0.087w   8687 calls
+CIWave: s2                          :      0.033u      0.000s      0.022w     44 calls
+CIWave: s3                          :      0.167u      0.000s      0.082w     44 calls
+CIWave: opdm                        :      0.033u      0.000s      0.021w      2 calls
+
+--------------------------------------------------------------------------------------
+Total PK formation time             :      0.017u      0.000s      0.010w      1 calls
+| Libint2ERI::Libint2ERI            :      0.000u      0.000s      0.004w      2 calls
+HF: Form core H                     :      0.000u      0.000s      0.001w      1 calls
+HF: Form S/X                        :      0.000u      0.000s      0.003w      1 calls
+HF: Guess                           :      0.033u      0.017s      0.030w      1 calls
+| SAD Guess                         :      0.033u      0.017s      0.028w      1 calls
+HF: Form G                          :      0.000u      0.000s      0.001w     12 calls
+| JK: D                             :      0.000u      0.000s      0.000w     12 calls
+| JK: USO2AO                        :      0.000u      0.000s      0.000w     12 calls
+| JK: JK                            :      0.000u      0.000s      0.000w     12 calls
+| | PK computes JK                  :      0.000u      0.000s      0.000w     12 calls
+| JK: AO2USO                        :      0.000u      0.000s      0.000w     12 calls
+HF: Form F                          :      0.000u      0.000s      0.000w     12 calls
+HF: Form D                          :      0.000u      0.000s      0.000w     12 calls
+HF: DIIS                            :      0.017u      0.000s      0.004w     11 calls
+| DIISManager::add_entry            :      0.000u      0.000s      0.001w     11 calls
+| DIISManager::extrapolate          :      0.000u      0.000s      0.001w     11 calls
+| | bMatrix setup                   :      0.000u      0.000s      0.000w     11 calls
+| | bMatrix pseudoinverse           :      0.000u      0.000s      0.000w     11 calls
+| | New vector                      :      0.000u      0.000s      0.000w     11 calls
+HF: Form C                          :      0.000u      0.000s      0.002w     11 calls
+Libint2ERI::Libint2ERI              :      0.000u      0.000s      0.002w      1 calls
+CIWave: CIvect write                :      0.000u      0.017s      0.008w    520 calls
+CIWave: CIvect read                 :      0.000u      0.083s      0.087w   8657 calls
+CIWave: s2                          :      0.033u      0.000s      0.022w     44 calls
+CIWave: s3                          :      0.167u      0.000s      0.082w     44 calls
+CIWave: opdm                        :      0.033u      0.000s      0.021w      2 calls
+| CIWave: CIvect read               :      0.000u      0.000s      0.000w     30 calls
+
+**************************************************************************************
