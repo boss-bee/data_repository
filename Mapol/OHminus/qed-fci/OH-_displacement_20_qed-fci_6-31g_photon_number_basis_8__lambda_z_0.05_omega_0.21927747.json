@@ -1,0 +1,37 @@
+{
+    "repo": {
+        "repository_url": "https://github.com/mapol-chem/qed-ci",
+        "branch": "direct_ci",
+        "commit": "7f25d1c5fd458a06002e79d610aa17399f213f71"
+    },
+    "molecule": {
+        "molecule_name": "OH-",
+        "geometry_origin": [
+            "\nO 0 0 -0.053346845719 \nH 0 0 0.846653154281\nsymmetry c1\n-1 1\nno_reorient\nno_com\n"
+        ],
+        "geometry_displaced": [
+            "\nO 0 0 19.946653154281 \nH 0 0 20.846653154281\nsymmetry c1\n-1 1\nno_reorient\nno_com\n"
+        ],
+        "symbols": [
+            "O",
+            "H"
+        ],
+        "displacement": 20
+    },
+    "driver": "energy",
+    "model": {
+        "method": "qed-fci",
+        "orbital_basis": "6-31g",
+        "photon_basis": "photon_number_basis",
+        "number_of_photon_states": 8,
+        "lambda": [
+            0.0,
+            0.0,
+            0.05
+        ],
+        "omega": 0.21927747
+    },
+    "return_result_origin": -75.42912336429204,
+    "return_result_displaced": -75.27743907624534,
+    "origin_dependent_error": 0.15168428804669531
+}

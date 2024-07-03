@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/Users/jfoley19/Code/SCQED-PCQED/src/HHep_ccpVQZ_last_error.py", line 1, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
