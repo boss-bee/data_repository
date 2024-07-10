@@ -23,7 +23,7 @@
         "method": "qed-fci",
         "orbital_basis": "6-31g",
         "photon_basis": "photon_number_basis",
-        "number_of_photon_states": 2,
+        "maximum_photon_occupation_state": 2,
         "lambda": [
             0.0,
             0.0,
