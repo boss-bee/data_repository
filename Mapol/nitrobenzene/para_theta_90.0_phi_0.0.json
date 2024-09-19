@@ -20,32 +20,13 @@
         "units": "angstrom"
     },
     "basis": {
-        "basisset": "6-311+G*",
-        "df_basisset": "",
-        "atom_basis": {
-            "O": "6-311+G*",
-            "C": "6-311+G*",
-            "N": "6-311+G*",
-            "H": "6-311+G*",
-            "Br": "6-311+G*"
-        }
+        "basisset": "6-311G*"
     },
     "SCF": {
         "charge": 1,
         "multiplicity": 1,
-        "lshift": 0,
-        "tol_int": 1e-20,
-        "tol_lindep": 1e-05,
         "conve": 1e-12,
         "convd": 1e-11,
-        "diis_hist": 10,
-        "force_tilesize": false,
-        "tilesize": 30,
-        "df_tilesize": 50,
-        "nnodes": 1,
-        "writem": 10,
-        "restart": false,
-        "noscf": false,
         "scf_type": "restricted",
         "qed_omegas": [
             0.06614874648125418
@@ -56,44 +37,18 @@
         ],
         "qed_polvecs": [
             [
-                0.7071067811865476,
-                0.7071067811865475,
+                1.0,
+                0.0,
                 6.123233995736766e-17
             ]
         ]
     },
     "CC": {
-        "threshold": 1e-10,
-        "force_tilesize": false,
-        "tilesize": 50,
+        "threshold": 1e-06,
         "lshift": 0.3,
-        "ndiis": 5,
         "ccsd_maxiter": 200,
-        "nactive": 0,
         "freeze": {
-            "atomic": false,
-            "core": 0,
-            "virtual": 0
-        },
-        "readt": false,
-        "writet": false,
-        "writev": false,
-        "writet_iter": 5,
-        "debug": false,
-        "profile_ccsd": false,
-        "balance_tiles": true,
-        "ext_data_path": "",
-        "PRINT": {
-            "tamplitudes": [
-                false,
-                0.05
-            ],
-            "ccsd_diagnostics": false
-        },
-        "CCSD(T)": {
-            "cache_size": 8,
-            "skip_ccsd": false,
-            "ccsdt_tilesize": 32
+            "atomic": true
         }
     },
     "TASK": {
